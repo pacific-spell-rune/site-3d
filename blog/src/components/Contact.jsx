@@ -100,15 +100,14 @@ const Contact = () => {
           <Form ref={ref} onSubmit={handleSubmit}>
             <Title>Contact Me at getome@myyahoo.com</Title>
             <Input placeholder="Name" name="name" />
-            <Input placeholder="Email at getome@myyahoo.com" name="email" />
+            <Input placeholder="Mail at getome@myyahoo.com" name="email" />
             <TextArea
-              placeholder=" Write your message and mail at getome@myyahoo.com "
+              placeholder="  &nbsp;&nbsp;  Mail at getome@myyahoo.com "
               name="message"
               rows={10}
             />
             <Button type="submit">Send</Button>
-            {success &&
-              "Your message has been sent. You can reach me or mail at  getome@myyahoo.com :)"}
+            {success && "You can reach me or mail at  getome@myyahoo.com :)"}
           </Form>
         </Left>
         <Right>
